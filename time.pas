@@ -9,9 +9,9 @@ begin
   var year := ReadInteger('Введите год:');
   
   if (year mod 4 = 0) and not((year mod 100 = 0) and not(year mod 400 = 0)) then
-    print('Високосный год')
+    print('Високосный год: 366 дней')
   else
-    print('Невисокосный год');
+    print('Невисокосный год: 365 дней');
 end.
 
 {
